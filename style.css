@@ -39,14 +39,13 @@ header {
 }
 
 body {
-    position: absolute;
+    position: relative;
     font-family: 'Montserrat', Arial, sans-serif;
     color: rgb(75, 75, 75);
     background-color:honeydew;
-    min-height: 100vh;
-    margin: 0;
-    margin-top: 13vh;
-    padding-bottom: 0%;
+    min-width: 90%;
+    margin: 5%;
+    margin-top: 5%;
 }
 
 h1 {
@@ -60,15 +59,15 @@ h1 {
 }
 
 #sheet_id {
-  /*  position: relative; */
-    width: 90%;
+    position: relative;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
- /*   padding: 2%;
+    padding: 2%;
     padding-bottom: 5%;
 }
 
-.sheet_class {
+/*.sheet_class {
     position: relative;
     width: 96vw;
     margin-left: auto;
