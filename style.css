@@ -63,6 +63,7 @@ h1 {
     position: relative;
     font-family: "Mohave", sans-serif;
     font-size: 6vw;
+    max-height: 10vh;
     font-variant-caps: small-caps;
     text-align: left;
     margin-left: 3%;
