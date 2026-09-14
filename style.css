@@ -14,7 +14,7 @@ html::-webkit-scrollbar {
     display: none;
 }
 
-header {
+/*header {
     position: fixed;
     height: 8vh;
     width: 100%;
@@ -26,26 +26,23 @@ header {
     text-align: left;
     font-family: 'Poiret One', 'Julius Sans One', Arial, sans-serif;
     font-size: 8vh;
-    /*font-variant-caps: small-caps;*/
+    font-variant-caps: small-caps;
     font-weight: 800;
     color: rgb(75, 75, 75);
     background-color: rgba(230, 255, 255, 0.9);
     background-clip: padding-box;
-    /* box-shadow: 0px 10px 10px 0px rgba(75, 75, 75, .1); */
+    box-shadow: 0px 10px 10px 0px rgba(75, 75, 75, .1); 
     border-bottom: 1vh;
     border-color: rgba(100, 255, 255, 0.5);
     border-style: none none solid;
     z-index: 100;
-}
+}*/
 
 body {
     position: relative;
     font-family: 'Montserrat', Arial, sans-serif;
     color: rgb(75, 75, 75);
     background-color:honeydew;
-    min-width: 90%;
-    margin: 5%;
-    margin-top: 5%;
 }
 
 h1 {
@@ -60,11 +57,10 @@ h1 {
 
 #sheet_id {
     position: relative;
-    width: 100vw;
+    width: 96vw;
     margin-left: auto;
     margin-right: auto;
-    padding: 2%;
-    padding-bottom: 5%;
+    padding: 2vw;
 }
 
 /*.sheet_class {
