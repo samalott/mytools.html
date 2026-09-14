@@ -54,7 +54,7 @@ iframe {
     width: 96%;             /* Make it full width */
     height: 96%;           /* Set a fixed height */
     margin: 2%;
-    /*font-family: "Mohave", sans-serif;*/
+    font-family: "Mohave", sans-serif;
     border: 2px solid #ccc;  /* Add a custom border */
     border-radius: 8px;      /* Give it rounded corners */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add a soft drop shadow */
