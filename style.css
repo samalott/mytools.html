@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Comfortaa:wght@300;400;500;600&family=Julius+Sans+One&family=Montserrat:wght@100;200;300;400;500;600&family=Poiret+One&family=Quicksand:wght@300;400;500&family=Syncopate&family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@import <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
 @import url("https://use.typekit.net/yio5mqp.css");
 
 
@@ -56,6 +60,12 @@ iframe {
 }
 
 
+.mohave-<uniquifier> {
+  font-family: "Mohave", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 /*
 h1 {
