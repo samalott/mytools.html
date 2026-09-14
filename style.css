@@ -45,6 +45,17 @@ body {
     background-color:honeydew;
 }
 
+iframe {
+  width: 96%;             /* Make it full width */
+  height: 96%;           /* Set a fixed height */
+  border: 2px solid #ccc;  /* Add a custom border */
+  border-radius: 8px;      /* Give it rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add a soft drop shadow */
+}
+
+
+
+/*
 h1 {
     position: relative;
     font-family: 'Montserrat', Arial, sans-serif;
@@ -55,13 +66,6 @@ h1 {
     margin-bottom: 3%;
 }
 
-iframe {
-    position: relative;
-    minimum-width: 80%;
-    margin-left: auto;
-    margin-right: auto; 
-}
-
 #sheet_id {
     position: relative;
     width: 96vw;
@@ -70,7 +74,7 @@ iframe {
     padding: 2vw;
 }
 
-/*.sheet_class {
+.sheet_class {
     position: relative;
     width: 96vw;
     margin-left: auto;
